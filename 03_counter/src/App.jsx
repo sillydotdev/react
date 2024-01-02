@@ -9,12 +9,16 @@ function App() {
   // let counter = 0                        // setCounter sets the value of counter in the UI
   const increment = () => {
     // counter += 1;
-    setCounter(counter + 1)
+    if (counter < 20) {
+      setCounter(counter + 1)
+    }
   }
 
   const decrement = () => {
     // counter -= 1;
-    setCounter(counter - 1)
+    if(counter > 0) {
+      setCounter(counter - 1)
+    }
   }
 
   return (
