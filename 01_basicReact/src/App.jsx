@@ -3,7 +3,7 @@ import MyHobbies from './kamran.jsx'
 function App() {
   const address = "I am from Kashmir"
   return (
-    // <></> :: is called fragment in jsx. it refers that it is only one componenet becaus eyou can return only one component
+    // <></> :: is called fragment in jsx. it refers that it is only one componenet because you can return only one component
     <>  
       <h1>My name is KAMRAN. {address}</h1>  
       <MyHobbies/>                            
