@@ -30,14 +30,15 @@ function MyApp() {
 // const reactElement = React.createElement(
 //   'a',
 //   {href: "https://google.com", target: "_blank"},
-//   'click me to visit google'
+//   'click me to visit google',
 //   anotherUser 
 // )
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
+    <MyApp />
   </React.StrictMode>,
-  // reactElement
+  
 )
 
