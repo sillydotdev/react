@@ -11,6 +11,14 @@ function App() {
     // counter += 1;
     if (counter < 20) {
       setCounter(counter + 1)
+      // setCounter(counter + 1)   // using counter + 1 multiple times will not increment the value by 4 because fiber waits and 
+      // setCounter(counter + 1)   // sends the calls in batch. It is the same state so only incremented by 1
+      // setCounter(counter + 1)
+
+      // but if you have a usecase where you have to increment by 3 then we do it like below:
+      // setCounter(prevCounter => prevCounter + 1)  // this is a callback to the previous state of couter and it stores that nad moves to the next
+      // setCounter(prevCounter => prevCounter + 1)
+      // setCounter(prevCounter => prevCounter + 1)
     }
   }
 
