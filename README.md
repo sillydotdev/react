@@ -6,6 +6,6 @@
 2. Custom React - Reconciler
 3. Hooks - useState hook
 4. Virtua DOM, React Fibre Click and Reconcilation
-    [Click](https://github.com/acdlite/react-fiber-architecture>)
+    [Click](https://github.com/acdlite/react-fiber-architecture)
 5. Tailwind & Props in React
 6. Background Changer in React
