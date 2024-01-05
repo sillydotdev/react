@@ -9,3 +9,4 @@
     [Click](https://github.com/acdlite/react-fiber-architecture)
 5. Tailwind & Props in React
 6. Background Changer in React
+7. Password Generator with copy to clipboard option
