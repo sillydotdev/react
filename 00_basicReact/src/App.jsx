@@ -16,7 +16,16 @@ function MyButton() {
   )
 }
 
+function AnotherButton({count, onClick}) {
+  return (
+    <button
+    onClick={onClick}
+    >Count: {count}</button>
+  )
+}
+
 function App() {
+  const[count, setCount] = useState(0);
   const user = {
     name: "Jhanviiii",
     imageUrl: "https://i.imgur.com/yXOvdOSs.jpg",
@@ -34,6 +43,11 @@ function App() {
       {product.title}
     </li>
     );
+
+    function increment() {
+      setCount(count+1);
+    }
+
   return (
     <>
     <div>
@@ -55,7 +69,15 @@ function App() {
       <MyButton /><br />
       <MyButton />
     </div>
+
+    <div>
+      <h1>Another Button</h1>
+      <AnotherButton count={count} onClick={increment} /><br />
+      <AnotherButton count={count} onClick={increment} />
+    </div>
     </>
+
+  
   )
 }
 
