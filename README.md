@@ -11,3 +11,6 @@
 6. Background Changer in React
 7. Password Generator with copy to clipboard option
 8. Currency Converter (Custom hooks and component reusability)
+9. React Router (Basic landing page project with NavBar, header, footer and Outlet. All links working)
+10. ContextAPI and Prop Drilling
+11. Theme Switcher (Dark & Light) using ContextAPI
