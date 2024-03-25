@@ -14,3 +14,4 @@
 9. React Router (Basic landing page project with NavBar, header, footer and Outlet. All links working)
 10. ContextAPI and Prop Drilling
 11. Theme Switcher (Dark & Light) using ContextAPI
+12. Todo App using ContextAPI and local storage with edit and delete functionalities
